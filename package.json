@@ -1,0 +1,55 @@
+{
+  "name": "project-management-system",
+  "version": "1.0.0",
+  "description": "A project management system with roadmap visualization, issue tracking, and automatic assignment features",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SofianeBel/project-management-system.git"
+  },
+  "keywords": [
+    "project-management",
+    "roadmap",
+    "issue-tracking",
+    "github-integration",
+    "automatic-assignment"
+  ],
+  "author": "SofianeBel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SofianeBel/project-management-system/issues"
+  },
+  "homepage": "https://github.com/SofianeBel/project-management-system#readme",
+  "dependencies": {
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.4.0",
+    "octokit": "^2.1.0",
+    "chart.js": "^4.3.0",
+    "react-chartjs-2": "^5.2.0",
+    "tailwindcss": "^3.3.3",
+    "postcss": "^8.4.27",
+    "autoprefixer": "^10.4.14",
+    "date-fns": "^2.30.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "zustand": "^4.3.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@types/react": "^18.2.17",
+    "typescript": "^5.1.6",
+    "eslint": "^8.46.0",
+    "eslint-config-next": "^13.4.12",
+    "jest": "^29.6.2",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^5.17.0"
+  }
+}
